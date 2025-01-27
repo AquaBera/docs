@@ -1,4 +1,4 @@
-# z_old_docs
+# Berachain-Ecosystem
 
 ## Overview
 

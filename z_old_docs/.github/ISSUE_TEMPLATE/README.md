@@ -1,4 +1,4 @@
-# z_old_docs
+# ISSUE_TEMPLATE
 
 ## Overview
 
