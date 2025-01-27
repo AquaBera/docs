@@ -16,9 +16,9 @@ This section contains:
 
 1. [**Overview & Benefits**](Overview-Benefits/)
    * A high-level look at the key advantages and unique features of the ALM.
-2. [**How It Works**](../../product-suite/automated-liquidity-manager/how-the-alm-works/)
+2. [**How It Work**](../Treasury-Diversification/How-Integration-Works/)**s**
    * A deep dive into the ALM's underlying logic, including directional liquidity, single-token deposits, and inventory-based rebalancing.
-3. [**Managing Positions FAQ**](../../product-suite/automated-liquidity-manager/managing-positions-faqs/)
+3. [**Managing Positions FAQ**](Managing-Positions-FAQs/)
    * Answers to common questions about setting up, monitoring, and adjusting liquidity positions through the ALM interface.
 
 ***
@@ -36,9 +36,9 @@ This section contains:
 
 ## Next Steps
 
-* **Read the** [**Overview & Benefits**](../../product-suite/automated-liquidity-manager/alm-overview-benefits/) to understand the ALM's core value proposition.
-* **Dive into** [**How It Works**](../../product-suite/automated-liquidity-manager/how-the-alm-works/) for a detailed technical explanation, including single-sided liquidity and dynamic rebalancing.
-* **Check out the** [**Managing Positions FAQ**](../../product-suite/automated-liquidity-manager/managing-positions-faqs/) to get practical guidance on how to optimize and monitor your ALM positions.
+* **Read the** [**Overview & Benefits**](Overview-Benefits/) to understand the ALM's core value proposition.
+* **Dive into** [**How It Works**](How-It-Works/) for a detailed technical explanation, including single-sided liquidity and dynamic rebalancing.
+* **Check out the** [**Managing Positions FAQ**](Managing-Positions-FAQs/) to get practical guidance on how to optimize and monitor your ALM positions.
 
 For questions or support, visit our [AquaBera Community Resources](https://discord.gg/aquabera) or [GitHub issues](https://github.com/AquaBera/alm/issues).
 
