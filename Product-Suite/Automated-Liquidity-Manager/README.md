@@ -16,7 +16,7 @@ This section contains:
 
 1. [**Overview & Benefits**](Overview-Benefits/)
    * A high-level look at the key advantages and unique features of the ALM.
-2. [**How It Work**](../Treasury-Diversification/How-Integration-Works/)**s**
+2. [**How It Works**](How-It-Works/)
    * A deep dive into the ALM's underlying logic, including directional liquidity, single-token deposits, and inventory-based rebalancing.
 3. [**Managing Positions FAQ**](Managing-Positions-FAQs/)
    * Answers to common questions about setting up, monitoring, and adjusting liquidity positions through the ALM interface.
