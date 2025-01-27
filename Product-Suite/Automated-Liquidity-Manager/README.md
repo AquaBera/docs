@@ -14,13 +14,13 @@ AquaBera's ALM is an advanced liquidity management tool that:
 
 This section contains:
 
-1. **[Overview & Benefits](../overview-benefits/README.md)**
+1. **[Overview & Benefits](/product-suite/automated-liquidity-manager/alm-overview-benefits)**
    - A high-level look at the key advantages and unique features of the ALM.
 
-2. **[How It Works](../how-it-works/README.md)**
-   - A deep dive into the ALM’s underlying logic, including directional liquidity, single-token deposits, and inventory-based rebalancing.
+2. **[How It Works](/product-suite/automated-liquidity-manager/how-the-alm-works)**
+   - A deep dive into the ALM's underlying logic, including directional liquidity, single-token deposits, and inventory-based rebalancing.
 
-3. **[Managing Positions FAQ](../managing-positions-faq/README.md)**
+3. **[Managing Positions FAQ](/product-suite/automated-liquidity-manager/managing-positions-faqs)**
    - Answers to common questions about setting up, monitoring, and adjusting liquidity positions through the ALM interface.
 
 ---
@@ -34,17 +34,17 @@ This section contains:
   By prioritizing the asset you deposit, the ALM helps protect against unwanted selling or accumulation, particularly useful in volatile markets or new token launches.
 
 - **Automated Rebalancing**  
-  The ALM monitors your liquidity “inventory” and adjusts positions in real time—no manual oversight or additional gas fees required for rebalances.
+  The ALM monitors your liquidity "inventory" and adjusts positions in real time—no manual oversight or additional gas fees required for rebalances.
 
 - **Integration with Berachain**  
-  Tightly integrated with Berachain’s Proof-of-Liquidity (PoL) system and various AMMs (like Kodiak), so you can easily capture gauge incentives and BeraChain rewards.
+  Tightly integrated with Berachain's Proof-of-Liquidity (PoL) system and various AMMs (like Kodiak), so you can easily capture gauge incentives and BeraChain rewards.
 
 ## Next Steps
 
-- **Read the [Overview & Benefits](../overview-benefits/README.md)** to understand the ALM’s core value proposition.  
-- **Dive into [How It Works](../how-it-works/README.md)** for a detailed technical explanation, including single-sided liquidity and dynamic rebalancing.  
-- **Check out the [Managing Positions FAQ](../managing-positions-faq/README.md)** to get practical guidance on how to optimize and monitor your ALM positions.
+- **Read the [Overview & Benefits](/product-suite/automated-liquidity-manager/alm-overview-benefits)** to understand the ALM's core value proposition.  
+- **Dive into [How It Works](/product-suite/automated-liquidity-manager/how-the-alm-works)** for a detailed technical explanation, including single-sided liquidity and dynamic rebalancing.  
+- **Check out the [Managing Positions FAQ](/product-suite/automated-liquidity-manager/managing-positions-faqs)** to get practical guidance on how to optimize and monitor your ALM positions.
 
-For questions or support, visit our [AquaBera Community Resources](#) or [GitHub issues](#).
+For questions or support, visit our [AquaBera Community Resources](https://discord.gg/aquabera) or [GitHub issues](https://github.com/AquaBera/alm/issues).
 
 ---
