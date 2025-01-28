@@ -6,23 +6,22 @@ AquaBera’s tokenomics are powered by a **Dynamic Full Float (DFF) model**, des
 
 ## 1. Overview
 
-* **Two Key Tokens**
-  1. **$AQUA**
-     * Primary token deployed in liquidity at day one.
-     * Full float available in automated pools, fostering deep and stable liquidity from the start.
-  2. **$poAQUA**
-     * Protocol-owned counterpart token designed to bribe Berachain validators.
-     * Redeemable for Aegis-powered liquidity positions over time.
-     * Encourages long-term holding; those who keep $poAQUA benefit from accumulating more Aegis LP tokens.
+* **$AQUA**
+  * Primary token deployed in liquidity at day one.
+  * Full float available in automated pools, fostering deep and stable liquidity from the start.
+* **$poAQUA**
+  * Protocol-owned liquidity pool token designed to bribe Berachain validators.
+  * Redeemable for Aegis-powered liquidity positions over time.
+  * Encourages long-term holding; those who keep $poAQUA benefit from accumulating more liquidity over time.
 * **Core Goals**
   1. **Address Low Float, High FDV Issues**
      * Traditional low-float tokens often cause unsustainable valuations and abrupt sell pressure.
      * AquaBera’s DFF approach puts all $AQUA in liquidity pools upfront, ensuring substantial circulating supply from the outset.
   2. **Protocol-Owned Liquidity**
-     * All $AQUA is initially under protocol control, mitigating mercenary capital.
+     * All $AQUA is initially under protocol control, mitigating early dumping.
      * Over time, bribes and user interactions distribute liquidity incentives across the ecosystem.
   3. **$poAQUA → Aegis LP → $HONEY**
-     * $poAQUA accumulates additional Aegis LP tokens, which gradually become more $HONEY (Berachain’s stable asset).
+     * $poAQUA accumulates additional Aegis LP tokens, designed to become more $HONEY (Berachain’s stable asset) over time.
      * If a holder redeems $poAQUA early, they forfeit future Aegis LP yield, which then accrues to remaining holders.
 
 ***
@@ -38,7 +37,7 @@ AquaBera’s tokenomics are powered by a **Dynamic Full Float (DFF) model**, des
 
 **$poAQUA**
 
-* **1 million** tokens, set aside to bribe validators, project partners, or dedicated participants.
+* **1 million** protocol owned liquidity tokens, set aside to bribe validators, project partners, or dedicated participants.
 * Does **not** dilute the main $AQUA pool at TGE; it’s designed to drive long-term alignment.
 
 ### 2.2 Sustainability & Price Stability
