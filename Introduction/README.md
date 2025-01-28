@@ -46,9 +46,9 @@ This helps ensure new or existing tokens on Berachain aren’t just launched, th
 - **Dynamic Full Float**: AquaBera's $AQUA token avoids low-float, high-FDV pitfalls.
 - **Hands-Free Optimization**: Pricing ranges and rebalancing are automated, saving dev teams and treasuries from constant monitoring or complicated scripts.
 
-### 2.4 Synergy for Token Projects
+### 2.4 Deep Liquidity for Token Projects
 
-- **Confidence**: Deep liquidity and stable trading from TGE fosters trust in your project’s longevity.  
+- **Confidence**: Stable trading from TGE fosters trust in your project’s longevity.  
 - **Community Engagement**: A strong bribe budget plus robust liquidity means your token can become a recognized fixture in the Berachain ecosystem.  
 - **PoL & Ecosystem Alignment**: Participating in gauge votes and bribes demonstrates your project’s commitment to Berachain security—earning you goodwill from validators, $BGT holders, and partner protocols.
 
