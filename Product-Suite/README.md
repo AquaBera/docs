@@ -1,6 +1,6 @@
 # Product-Suite
 
-Welcome to the **AquaBera Product Suite**, a collection of DeFi solutions built around **Berachain** to optimize liquidity, power fair token launches, and enable treasury diversification. Our aim is to streamline complex decentralized finance workflows while maximizing returns and minimizing risk.
+Welcome to the **AquaBera Product Suite**, a collection of DeFi protocols built on **Berachain** to optimize liquidity, power fair token launches, and enable treasury diversification. Our aim is to streamline complex decentralized finance workflows while maximizing returns and minimizing risk.
 
 ***
 
