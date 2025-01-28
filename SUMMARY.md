@@ -2,7 +2,7 @@
 
 * [.](README.md)
 * [Introduction](Introduction/README.md)
-* [Product-Suite](Product-Suite/README.md)
+* [Products](Product-Suite/README.md)
   * [Automated Liquidity Manager (ALM)](Product-Suite/Automated-Liquidity-Manager/README.md)
     * [How the ALM Works](Product-Suite/Automated-Liquidity-Manager/How-It-Works/README.md)
     * [Managing Positions FAQ](Product-Suite/Automated-Liquidity-Manager/Managing-Positions-FAQs/README.md)
