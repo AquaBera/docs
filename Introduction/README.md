@@ -1,6 +1,6 @@
 # Berachain Docs: Introduction & Key Concepts
 
-> **Note:** This introduction focuses on how **AquaAscend** (AquaBera’s premium partnership program) aligns with Berachain’s Proof-of-Liquidity. For detailed usage guides and developer instructions for AquaBera protocols, see the other sections of this documentation.
+> **Note:** This introduction focuses on how **AquaBribe** (AquaBera’s premium partnership program) aligns with Berachain’s Proof-of-Liquidity. For detailed usage guides and developer instructions for AquaBera protocols, see the other sections of this documentation.
 
 ---
 
@@ -12,11 +12,11 @@
 
 ### Enter AquaBera
 
-**AquaBera** is Berachain’s **premier** liquidity management powerhouse, delivering specialized services to projects, automated market makers,validators, and the broader DeFi community. By integrating advanced directional liquidity strategies, automated rebalancing, and now a dedicated TGE accelerator called **AquaAscend**, AquaBera aims to strengthen the entire Berachain ecosystem.
+**AquaBera** is Berachain’s **premier** liquidity management powerhouse, delivering specialized services to projects, automated market makers,validators, and the broader DeFi community. By integrating advanced directional liquidity strategies, automated rebalancing, and now a dedicated TGE accelerator called **AquaBribe**, AquaBera aims to strengthen the entire Berachain ecosystem.
 
-### The AquaAscend Program
+### The AquaBribe Program
 
-**AquaAscend** is an **exclusive** offering for token projects launching (or expanding) on Berachain. Participants receive:
+**AquaBribe** is an **exclusive** offering for token projects launching (or expanding) on Berachain. Participants receive:
 
 - **$poAQUA Bribe Budgets**: Protocol-owned token bribes to incentivize Berachain validators and gauge voters to support your token’s liquidity.
 - **$BGT Earnings**: AquaBera ALM tokens earn $BGT when they are approved for Berachain’s gauges.
@@ -32,11 +32,11 @@ This helps ensure new or existing tokens on Berachain aren’t just launched, th
 
 - **Liquidity as Security**: Berachain’s core innovation ties network stability to real asset deployment in liquidity pools.  
 - **Gauge Voting**: Validators and $BGT holders decide how and where to direct emissions. By winning gauge votes, tokens gain stronger rewards for their pools—fueling deeper liquidity.  
-- **$poAQUA & Bribes**: AquaAscend dedicates $poAQUA to selected token gauges, making your pool more attractive to Berachain’s validator community.
+- **$poAQUA & Bribes**: AquaBribe dedicates $poAQUA to selected token gauges, making your pool more attractive to Berachain’s validator community.
 
-### 2.2 AquaAscend & $poAQUA
+### 2.2 AquaBribe & $poAQUA
 
-- **Exclusive Bribe Budget**: Projects in AquaAscend get a portion of **$poAQUA** assigned to their liquidity. This heightens yield potential for liquidity providers—pulling more capital in.  
+- **Exclusive Bribe Budget**: Projects in AquaBribe get a portion of **$poAQUA** assigned to their liquidity. This heightens yield potential for liquidity providers—pulling more capital in.  
 - **Alignment with Validators**: Because $poAQUA is redeemable for Aegis LP (increasingly composed of $HONEY over time), validators have **long-term incentives** to hold or distribute $poAQUA, rather than dumping it.  
 - **Fostering Early Growth**: By auto-redirecting bribes to your pool, it wins more gauge votes, ensuring strong, sustainable liquidity from day one.
 

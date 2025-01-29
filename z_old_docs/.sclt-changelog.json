@@ -1,9 +1,0 @@
-{
-  "$schema": "https://api.npoint.io/790efd441f0e378c0bab",
-  "labelsToHeadline": {
-    "new content": "✨ New content",
-    "updated content": "🖌 Updated content",
-    "fix": "🧹 Fixes, typos, chore, and other improvements"
-  },
-  "footer": "<br />Thanks a lot for your contributions! 🥰🚀"
-}
