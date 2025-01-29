@@ -7,7 +7,7 @@
     * [How the ALM Works](Product-Suite/Automated-Liquidity-Manager/How-It-Works/README.md)
     * [Managing Positions FAQ](Product-Suite/Automated-Liquidity-Manager/Managing-Positions-FAQs/README.md)
     * [ALM Overview & Benefits](Product-Suite/Automated-Liquidity-Manager/Overview-Benefits/README.md)
-  * [Meme Token Launch Platform](Product-Suite/Launch-Platform/README.md)
+  * [Launchpads](Product-Suite/Launch-Platform/README.md)
     * [How It Works](Product-Suite/Launch-Platform/How-It-Works/README.md)
     * [Smart Contracts](product-suite/launch-platform/smart-contracts.md)
   * [Treasury-Diversification](Product-Suite/Treasury-Diversification/README.md)
