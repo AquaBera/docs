@@ -12,6 +12,7 @@
     * [Smart Contracts](product-suite/launch-platform/smart-contracts.md)
   * [Treasury-Diversification](Product-Suite/Treasury-Diversification/README.md)
 * [Tokenomics & Governance](Tokenomics-Governance/README.md)
+* [Case Studies](Case-Studies/README.md)
 * [Developer-Advanced-Docs](Developer-Advanced-Docs/README.md)
   * [APIs-SDK](Developer-Advanced-Docs/APIs-SDK/README.md)
   * [Contributing-Guidelines](Developer-Advanced-Docs/Contributing-Guidelines/README.md)
