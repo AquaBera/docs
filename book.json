@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    "theme-default",
+    "-sharing",
+    "-fontsettings",
+    "custom-favicon"
+  ],
+  "pluginsConfig": {
+    "favicon": "assets/favicon.ico",
+    "theme-default": {
+      "showLevel": true
+    }
+  },
+  "styles": {
+    "website": "styles/website.css"
+  }
+}

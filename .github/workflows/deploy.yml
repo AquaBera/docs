@@ -33,6 +33,17 @@ jobs:
       - name: Install GitBook dependencies
         run: gitbook install
 
+      - name: Install additional plugins
+        run: |
+          npm install gitbook-plugin-custom-favicon
+          gitbook install
+
+      - name: Setup assets
+        run: |
+          mkdir -p assets
+          cp logo.svg assets/logo.svg
+          cp logo-dark.svg assets/logo-dark.svg
+
       - name: Build GitBook
         run: gitbook build
 
