@@ -40,9 +40,17 @@ jobs:
 
       - name: Setup assets
         run: |
-          mkdir -p assets
-          cp logo.svg assets/logo.svg
-          cp logo-dark.svg assets/logo-dark.svg
+          if [ -d "assets" ]; then
+            echo "Assets directory exists"
+          else
+            mkdir -p assets
+            if [ -f "assets/logo.svg" ] && [ -f "assets/logo-dark.svg" ]; then
+              echo "Logo files already in assets directory"
+            else
+              cp assets/logo.svg assets/logo.svg
+              cp assets/logo-dark.svg assets/logo-dark.svg
+            fi
+          fi
 
       - name: Build GitBook
         run: gitbook build
