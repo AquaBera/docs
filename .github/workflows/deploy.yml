@@ -26,6 +26,9 @@
          - name: Build GitBook
            run: gitbook build
 
+         - name: Disable Jekyll processing
+           run: touch _book/.nojekyll
+
          - name: Deploy to GitHub Pages
            uses: peaceiris/actions-gh-pages@v3
            with:
