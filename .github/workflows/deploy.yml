@@ -24,6 +24,12 @@ jobs:
       - name: Install GitBook CLI
         run: npm install -g gitbook-cli
 
+      - name: Patch graceful-fs polyfills
+        run: |
+          polyfills_path=$(npm root -g)/gitbook-cli/node_modules/npm/node_modules/graceful-fs/polyfills.js
+          sed -i 's/if (cb) cb.apply(this, arguments)/if (typeof cb === "function") { cb.apply(this, arguments); }/g' "$polyfills_path"
+          echo "Patched graceful-fs at $polyfills_path"
+
       - name: Install GitBook dependencies
         run: gitbook install
 
