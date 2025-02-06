@@ -1,6 +1,6 @@
 # Table of contents
 
-* [.](README.md)
+* [Overview](README.md)
 * [Introduction](Introduction/README.md)
 * [Products](Product-Suite/README.md)
   * [Automated Liquidity Manager (ALM)](Product-Suite/Automated-Liquidity-Manager/README.md)
@@ -34,6 +34,7 @@
   * [Joint-Marketing-Co-Liquidity](partner-integration-collaborations/joint-marketing-co-liquidity.md)
   * [Onboarding-Support](partner-integration-collaborations/onboarding-support.md)
   * [Technical-Integration-Guide](partner-integration-collaborations/technical-integration-guide.md)
+* [Contracts](Contracts/README.md)
 * [Resources-References](Resources-References/README.md)
   * [Additional-Reading](Resources-References/Additional-Reading/README.md)
   * [Glossary](Resources-References/Glossary/README.md)

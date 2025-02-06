@@ -25,6 +25,10 @@ AquaBera delivers a powerful set of DeFi products engineered to optimize liquidi
 - **Case Studies**
   - Discover real-world examples—such as the [Goldilocks Case Study](Case-Studies/Goldilocks-Case-Study/)—that demonstrate how our products deliver performance and risk management in live environments.
 
+## Official Contract Addresses
+
+For official AquaBera MainNet contract addresses, please refer to our [Contracts documentation](Contracts/README.md).
+
 ## Getting Started
 
 - **Introduction & Key Concepts:**  
@@ -60,3 +64,5 @@ Connect with us for support, updates, and discussions:
 - **GitHub:** [Report issues or contribute](https://github.com/AquaBera)
 
 Explore the guides, learn how each product works, and harness the full potential of AquaBera to power your DeFi projects on Berachain!
+
+Happy Liquidity Provisioning!
