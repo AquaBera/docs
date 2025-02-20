@@ -56,6 +56,6 @@ For more details about Pot2Pump, visit the [HoneyPot Finance Documentation](http
 2. **[Smart Contracts](Smart-Contracts/)**  
    Review the ABI references for `createPair`, `depositRaisedToken`, `refundRaisedToken`, `claimLP`, and `claimableLP`. Learn how to integrate Pot2Pump in your dApp or scripts.
 
-For further support, join our [AquaBera Community Resources](https://discord.gg/aquabera) or file an issue on [GitHub issues](https://github.com/AquaBera/alm/issues).
+For further support, please file an issue on [GitHub issues](https://github.com/AquaBera/alm/issues).
 
 ---

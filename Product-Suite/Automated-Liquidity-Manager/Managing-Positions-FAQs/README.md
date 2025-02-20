@@ -95,7 +95,6 @@ In certain **extreme market conditions**, the ALM's final safety net may lock ne
 If you can't find an answer here, try:
 
 - Our [Developer Docs](https://docs.aquabera.com/developer) for technical integration details.  
-- The [AquaBera Community Resources](https://discord.gg/aquabera) to get real-time assistance.  
 - [Submit a support ticket on GitHub](https://github.com/AquaBera/alm/issues) or ask in our official forum.
 
 ---

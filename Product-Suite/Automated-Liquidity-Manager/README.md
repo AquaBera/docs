@@ -40,6 +40,6 @@ This section contains:
 * **Dive into** [**How It Works**](How-It-Works/) for a detailed technical explanation, including single-sided liquidity and dynamic rebalancing.
 * **Check out the** [**Managing Positions FAQ**](Managing-Positions-FAQs/) to get practical guidance on how to optimize and monitor your ALM positions.
 
-For questions or support, visit our [AquaBera Community Resources](https://discord.gg/aquabera) or [GitHub issues](https://github.com/AquaBera/alm/issues).
+For questions or support, please visit our [GitHub issues](https://github.com/AquaBera/alm/issues).
 
 ***

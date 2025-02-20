@@ -210,5 +210,4 @@ if (claimableAmount > 0) {
 
 **Community Support:**
 
-- [AquaBera Community Resources](https://discord.gg/aquabera)
 - [GitHub issues](https://github.com/AquaBera/alm/issues)
