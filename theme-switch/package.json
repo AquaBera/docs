@@ -1,0 +1,15 @@
+{
+    "name": "honkit-plugin-theme-switch",
+    "version": "1.0.0",
+    "description": "Theme switcher plugin for HonKit",
+    "main": "index.js",
+    "keywords": [
+        "honkit",
+        "theme",
+        "switch",
+        "dark-mode"
+    ],
+    "engines": {
+        "honkit": ">=4.0.0"
+    }
+} 

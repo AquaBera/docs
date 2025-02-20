@@ -2,7 +2,8 @@
   "plugins": [
     "theme-default",
     "-sharing",
-    "-fontsettings"
+    "-fontsettings",
+    "./theme-switch"
   ],
   "pluginsConfig": {
     "theme-default": {
