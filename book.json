@@ -3,7 +3,7 @@
     "theme-default",
     "-sharing",
     "-fontsettings",
-    "./theme-switch"
+    "theme-switch"
   ],
   "pluginsConfig": {
     "theme-default": {
