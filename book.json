@@ -11,5 +11,8 @@
   },
   "styles": {
     "website": "styles/website.css"
+  },
+  "scripts": {
+    "website": "styles/theme-switch.js"
   }
 }
