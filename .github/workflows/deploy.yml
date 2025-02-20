@@ -4,19 +4,43 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '**/*.md'
+      - 'SUMMARY.md'
+      - 'book.json'
+      - '.github/workflows/deploy.yml'
   workflow_dispatch:
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: '16.20.2'
+          cache: 'npm'
+
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.npm
+            node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Clean old build
+        run: |
+          rm -rf _book
+          rm -rf node_modules
 
       - name: Install specific npm version
         run: npm install -g npm@8.19.4
@@ -27,25 +51,36 @@ jobs:
       - name: Patch graceful-fs polyfills
         run: |
           polyfills_path=$(npm root -g)/gitbook-cli/node_modules/npm/node_modules/graceful-fs/polyfills.js
-          sed -i 's/if (cb) cb.apply(this, arguments)/if (typeof cb === "function") { cb.apply(this, arguments); }/g' "$polyfills_path"
-          echo "Patched graceful-fs at $polyfills_path"
+          if [ -f "$polyfills_path" ]; then
+            sed -i 's/if (cb) cb.apply(this, arguments)/if (typeof cb === "function") { cb.apply(this, arguments); }/g' "$polyfills_path"
+            echo "Patched graceful-fs at $polyfills_path"
+          else
+            echo "Warning: polyfills.js not found at expected path"
+          fi
 
       - name: Install GitBook dependencies
-        run: gitbook install
-
-      - name: Install additional plugins
         run: |
-          npm install gitbook-plugin-custom-favicon
           gitbook install
+          npm install gitbook-plugin-custom-favicon || echo "Failed to install custom-favicon plugin"
 
-      - name: Setup styles
+      - name: Verify SUMMARY.md
+        run: |
+          if [ ! -f "SUMMARY.md" ]; then
+            echo "Error: SUMMARY.md not found"
+            exit 1
+          fi
+
+      - name: Setup directories
         run: |
           mkdir -p _book/styles
-          cp -r styles/* _book/styles/
-
-      - name: Setup assets
-        run: |
           mkdir -p _book/assets
+          
+          # Copy styles if they exist
+          if [ -d "styles" ]; then
+            cp -r styles/* _book/styles/ || echo "No styles to copy"
+          fi
+          
+          # Handle assets
           if [ -f "assets/logo.svg" ] && [ -f "assets/logo-dark.svg" ]; then
             cp assets/logo.svg _book/assets/
             cp assets/logo-dark.svg _book/assets/
@@ -55,7 +90,22 @@ jobs:
           fi
 
       - name: Build GitBook
-        run: gitbook build
+        run: |
+          gitbook build || {
+            echo "Error: GitBook build failed"
+            exit 1
+          }
+
+      - name: Verify build output
+        run: |
+          if [ ! -d "_book" ]; then
+            echo "Error: _book directory not found after build"
+            exit 1
+          fi
+          if [ ! -f "_book/index.html" ]; then
+            echo "Error: index.html not found in _book directory"
+            exit 1
+          fi
 
       - name: Disable Jekyll processing
         run: touch _book/.nojekyll
@@ -63,6 +113,15 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.DEPLOY_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_book
-          cname: docs.example.com
+          force_orphan: true
+          commit_message: "docs: update documentation site"
+          enable_jekyll: false
+          cname: aquabera.github.io/docs
+
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -rf _book
+          rm -rf node_modules
