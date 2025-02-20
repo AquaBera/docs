@@ -27,9 +27,82 @@
         opacity: 1;
     }
     
+    .book-summary ul.summary li a {
+        color: rgba(255,255,255,.8);
+    }
+
+    .book-summary ul.summary li.active > a {
+        color: #FFD94E;
+    }
+
+    .book-summary ul.summary li a:hover {
+        color: #FFD94E;
+        background: rgba(255,217,78,.1);
+    }
+    
     .book-body {
         background: #1a1a1a;
         color: #ffffff;
+    }
+
+    .markdown-section {
+        color: rgba(255,255,255,.9);
+    }
+
+    .markdown-section h1,
+    .markdown-section h2,
+    .markdown-section h3,
+    .markdown-section h4,
+    .markdown-section h5,
+    .markdown-section h6 {
+        color: #ffffff;
+    }
+
+    .markdown-section code {
+        background-color: rgba(255,217,78,.1);
+        color: #FFD94E;
+    }
+
+    .markdown-section pre {
+        background-color: #2a2a2a;
+    }
+
+    .markdown-section pre > code {
+        color: #ffffff;
+        background: none;
+    }
+
+    .markdown-section blockquote {
+        border-color: rgba(255,217,78,.4);
+        background-color: rgba(255,217,78,.1);
+    }
+
+    .markdown-section hr {
+        background-color: rgba(255,255,255,.1);
+    }
+
+    .markdown-section table th,
+    .markdown-section table td {
+        border-color: rgba(255,255,255,.1);
+    }
+
+    .book-header {
+        background: #1a1a1a;
+        border-bottom: 1px solid rgba(255,255,255,.07);
+    }
+
+    .book-header h1 {
+        color: #ffffff;
+    }
+
+    /* Navigation buttons */
+    .navigation-prev, .navigation-next {
+        background: #2a2a2a;
+        border: 1px solid rgba(255,255,255,.1);
+    }
+
+    .navigation-prev:hover, .navigation-next:hover {
+        background: #333333;
     }
 }
 
@@ -42,6 +115,7 @@
 .book-summary ul.summary li a:hover {
     color: #FFD94E;
     text-decoration: none;
+    background: rgba(255,217,78,.05);
 }
 
 /* Modern container styling */
