@@ -65,3 +65,5 @@ Connect with us for support, updates, and discussions:
 Explore the guides, learn how each product works, and harness the full potential of AquaBera to power your DeFi projects on Berachain!
 
 Happy Liquidity Provisioning!
+
+<!-- Updated: 2025-02-20 -->
