@@ -9,7 +9,7 @@
     * [ALM Overview & Benefits](Product-Suite/Automated-Liquidity-Manager/Overview-Benefits/README.md)
   * [Launchpads](Product-Suite/Launch-Platform/README.md)
     * [How It Works](Product-Suite/Launch-Platform/How-It-Works/README.md)
-    * [Smart Contracts](product-suite/launch-platform/smart-contracts.md)
+    * [Smart Contracts](Product-Suite/Launch-Platform/Smart/README.md)
   * [Treasury-Diversification](Product-Suite/Treasury-Diversification/README.md)
 * [Tokenomics & Governance](Tokenomics-Governance/README.md)
 * [Case Studies](Case-Studies/README.md)
