@@ -60,7 +60,6 @@ Built on the innovative Berachain network, AquaBera provides:
 
 Connect with us for support, updates, and discussions:
 
-- **Discord:** [Join our Discord](https://discord.gg/aquabera)
 - **GitHub:** [Report issues or contribute](https://github.com/AquaBera)
 
 Explore the guides, learn how each product works, and harness the full potential of AquaBera to power your DeFi projects on Berachain!
