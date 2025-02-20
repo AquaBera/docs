@@ -1,5 +1,6 @@
 name: Deploy GitBook to GitHub Pages
 
+# Workflow for building and deploying GitBook documentation
 on:
   push:
     branches:
@@ -16,6 +17,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout repository
@@ -103,7 +106,6 @@ jobs:
           force_orphan: true
           commit_message: "docs: update documentation site"
           enable_jekyll: false
-          cname: aquabera.github.io/docs
 
       - name: Cleanup
         if: always()
