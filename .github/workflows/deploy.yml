@@ -30,12 +30,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18.19.0'
+          cache: 'npm'
 
       - name: Install dependencies
         run: |
           npm install
-          npm install -g honkit
-          npm install honkit-plugin-theme-default
 
       - name: Verify SUMMARY.md
         run: |
@@ -65,7 +64,7 @@ jobs:
 
       - name: Build documentation
         run: |
-          honkit build || {
+          npm run build || {
             echo "Error: Documentation build failed"
             exit 1
           }
@@ -97,4 +96,3 @@ jobs:
         if: always()
         run: |
           rm -rf _book
-          rm -rf node_modules

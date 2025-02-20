@@ -8,7 +8,9 @@
     "serve": "honkit serve"
   },
   "dependencies": {
-    "honkit": "^4.0.7"
+    "honkit": "^4.0.7",
+    "@honkit/honkit-plugin-theme-default": "^4.0.8",
+    "@honkit/honkit-plugin-highlight": "^4.0.8"
   },
   "repository": {
     "type": "git",
