@@ -9,6 +9,8 @@ on:
       - 'SUMMARY.md'
       - 'book.json'
       - '.github/workflows/deploy.yml'
+      - 'package.json'
+      - 'package-lock.json'
   workflow_dispatch:
 
 jobs:
@@ -25,28 +27,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '16.20.2'
-          cache: 'npm'
 
-      - name: Cache dependencies
-        uses: actions/cache@v3
-        with:
-          path: |
-            ~/.npm
-            node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
-      - name: Clean old build
+      - name: Install dependencies
         run: |
-          rm -rf _book
-          rm -rf node_modules
-
-      - name: Install specific npm version
-        run: npm install -g npm@8.19.4
-
-      - name: Install GitBook CLI
-        run: npm install -g gitbook-cli
+          npm ci
+          npm install -g gitbook-cli
 
       - name: Patch graceful-fs polyfills
         run: |
