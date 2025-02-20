@@ -1,5 +1,5 @@
 {
-    "name": "@aquabera/honkit-plugin-theme-switch",
+    "name": "honkit-plugin-theme-switch",
     "version": "1.0.0",
     "description": "Theme switcher plugin for HonKit",
     "main": "index.js",
