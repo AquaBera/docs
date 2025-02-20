@@ -36,10 +36,6 @@ jobs:
           npm ci
           npm install -g honkit
 
-      - name: Install Honkit plugins
-        run: |
-          honkit install
-
       - name: Verify SUMMARY.md
         run: |
           if [ ! -f "SUMMARY.md" ]; then
