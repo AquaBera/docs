@@ -4,12 +4,12 @@
   "description": "AquaBera Documentation",
   "main": "index.js",
   "scripts": {
-    "build": "gitbook build",
-    "serve": "gitbook serve"
+    "build": "honkit build",
+    "serve": "honkit serve"
   },
   "dependencies": {
-    "gitbook-cli": "^2.3.2",
-    "gitbook-plugin-custom-favicon": "^0.0.4"
+    "honkit": "^4.0.7",
+    "@honkit/theme-default": "^4.0.7"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,9 @@
   },
   "keywords": [
     "documentation",
-    "gitbook",
+    "honkit",
     "aquabera"
   ],
   "author": "AquaBera",
   "license": "MIT"
-} 
+}

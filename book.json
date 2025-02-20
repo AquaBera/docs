@@ -2,11 +2,9 @@
   "plugins": [
     "theme-default",
     "-sharing",
-    "-fontsettings",
-    "custom-favicon"
+    "-fontsettings"
   ],
   "pluginsConfig": {
-    "favicon": "assets/favicon.ico",
     "theme-default": {
       "showLevel": true
     }
