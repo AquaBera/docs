@@ -1,0 +1,25 @@
+{
+  "name": "aquabera-docs",
+  "version": "1.0.0",
+  "description": "AquaBera Documentation",
+  "main": "index.js",
+  "scripts": {
+    "build": "gitbook build",
+    "serve": "gitbook serve"
+  },
+  "dependencies": {
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-custom-favicon": "^0.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AquaBera/docs.git"
+  },
+  "keywords": [
+    "documentation",
+    "gitbook",
+    "aquabera"
+  ],
+  "author": "AquaBera",
+  "license": "MIT"
+} 
