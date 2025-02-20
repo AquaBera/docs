@@ -29,27 +29,16 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '16.20.2'
+          node-version: '18.19.0'
 
       - name: Install dependencies
         run: |
           npm ci
-          npm install -g gitbook-cli
+          npm install -g honkit
 
-      - name: Patch graceful-fs polyfills
+      - name: Install Honkit plugins
         run: |
-          polyfills_path=$(npm root -g)/gitbook-cli/node_modules/npm/node_modules/graceful-fs/polyfills.js
-          if [ -f "$polyfills_path" ]; then
-            sed -i 's/if (cb) cb.apply(this, arguments)/if (typeof cb === "function") { cb.apply(this, arguments); }/g' "$polyfills_path"
-            echo "Patched graceful-fs at $polyfills_path"
-          else
-            echo "Warning: polyfills.js not found at expected path"
-          fi
-
-      - name: Install GitBook dependencies
-        run: |
-          gitbook install
-          npm install gitbook-plugin-custom-favicon || echo "Failed to install custom-favicon plugin"
+          honkit install
 
       - name: Verify SUMMARY.md
         run: |
@@ -77,10 +66,10 @@ jobs:
             echo '<svg width="183" height="40" xmlns="http://www.w3.org/2000/svg"></svg>' > _book/assets/logo-dark.svg
           fi
 
-      - name: Build GitBook
+      - name: Build documentation
         run: |
-          gitbook build || {
-            echo "Error: GitBook build failed"
+          honkit build || {
+            echo "Error: Documentation build failed"
             exit 1
           }
 
