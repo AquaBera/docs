@@ -3,25 +3,25 @@
  */
 
 :root {
-  --ifm-color-primary: rgb(27%, 33%, 38%); /* Dark blue-gray to match logo-dark.jpg */
-  --ifm-color-primary-dark: rgb(24%, 30%, 34%);
-  --ifm-color-primary-darker: rgb(22%, 27%, 31%);
-  --ifm-color-primary-darkest: rgb(20%, 26%, 30%);
-  --ifm-color-primary-light: rgb(30%, 36%, 41%);
-  --ifm-color-primary-lighter: rgb(32%, 39%, 44%);
-  --ifm-color-primary-lightest: rgb(35%, 42%, 47%);
-  --ifm-background-color: rgb(69%, 74%, 78%); /* Light blue-gray to match logo-light.jpg */
+  --ifm-color-primary: rgb(26.5%, 33.2%, 37.7%); /* Dark blue-gray to match logo-dark.jpg */
+  --ifm-color-primary-dark: rgb(23.5%, 30.2%, 34.7%);
+  --ifm-color-primary-darker: rgb(21.5%, 28.2%, 32.7%);
+  --ifm-color-primary-darkest: rgb(19.5%, 26.2%, 30.7%);
+  --ifm-color-primary-light: rgb(29.5%, 36.2%, 40.7%);
+  --ifm-color-primary-lighter: rgb(31.5%, 38.2%, 42.7%);
+  --ifm-color-primary-lightest: rgb(33.5%, 40.2%, 44.7%);
+  --ifm-background-color: rgb(68.9%, 73.6%, 77.9%); /* Light blue-gray to match logo-light.jpg */
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: rgb(69%, 74%, 78%); /* Light color for dark mode buttons/links */
-  --ifm-color-primary-dark: rgb(62%, 67%, 70%);
-  --ifm-color-primary-darker: rgb(55%, 60%, 63%);
-  --ifm-color-primary-darkest: rgb(48%, 53%, 56%);
-  --ifm-color-primary-light: rgb(76%, 81%, 85%);
-  --ifm-color-primary-lighter: rgb(83%, 88%, 92%);
-  --ifm-color-primary-lightest: rgb(90%, 95%, 99%);
-  --ifm-background-color: rgb(27%, 33%, 38%); /* Dark blue-gray background to match logo-dark.jpg */
+  --ifm-color-primary: rgb(68.9%, 73.6%, 77.9%); /* Light color for dark mode buttons/links */
+  --ifm-color-primary-dark: rgb(61.9%, 66.6%, 70.9%);
+  --ifm-color-primary-darker: rgb(54.9%, 59.6%, 63.9%);
+  --ifm-color-primary-darkest: rgb(47.9%, 52.6%, 56.9%);
+  --ifm-color-primary-light: rgb(75.9%, 80.6%, 84.9%);
+  --ifm-color-primary-lighter: rgb(82.9%, 87.6%, 91.9%);
+  --ifm-color-primary-lightest: rgb(89.9%, 94.6%, 98.9%);
+  --ifm-background-color: rgb(26.5%, 33.2%, 37.7%); /* Dark blue-gray background to match logo-dark.jpg */
 }
 
 /* For the hero section specifically */
@@ -39,4 +39,10 @@
 .hero-logo {
   max-width: 300px;
   margin-bottom: 1rem;
+}
+
+/* Ensure root elements have background color */
+html[data-theme='dark'],
+body[data-theme='dark'] {
+  background-color: var(--ifm-background-color);
 } 
