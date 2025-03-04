@@ -1,0 +1,42 @@
+/**
+ * Any CSS included here will be global.
+ */
+
+:root {
+  --ifm-color-primary: rgb(27%, 32%, 36%); /* Dark blue-gray to match logo-dark.jpg */
+  --ifm-color-primary-dark: rgb(24%, 29%, 32%);
+  --ifm-color-primary-darker: rgb(22%, 26%, 30%);
+  --ifm-color-primary-darkest: rgb(20%, 25%, 28%);
+  --ifm-color-primary-light: rgb(30%, 35%, 39%);
+  --ifm-color-primary-lighter: rgb(32%, 38%, 42%);
+  --ifm-color-primary-lightest: rgb(35%, 40%, 44%);
+  --ifm-background-color: rgb(64%, 67%, 70%); /* Light blue-gray to match logo-light.jpg */
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: rgb(64%, 67%, 70%); /* Light color for dark mode buttons/links */
+  --ifm-color-primary-dark: rgb(58%, 60%, 63%);
+  --ifm-color-primary-darker: rgb(51%, 54%, 56%);
+  --ifm-color-primary-darkest: rgb(45%, 47%, 50%);
+  --ifm-color-primary-light: rgb(71%, 74%, 77%);
+  --ifm-color-primary-lighter: rgb(77%, 80%, 83%);
+  --ifm-color-primary-lightest: rgb(83%, 86%, 89%);
+  --ifm-background-color: rgb(27%, 32%, 36%); /* Dark blue-gray background to match logo-dark.jpg */
+}
+
+/* For the hero section specifically */
+.hero {
+  background-color: var(--ifm-background-color);
+  color: black;
+}
+
+[data-theme='dark'] .hero {
+  background-color: var(--ifm-background-color);
+  color: white;
+}
+
+/* Make the hero logo larger */
+.hero-logo {
+  max-width: 300px;
+  margin-bottom: 1rem;
+} 
