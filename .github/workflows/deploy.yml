@@ -59,8 +59,8 @@ jobs:
           if [ -d "assets" ]; then
             cp -r assets/* _book/assets/ || echo "No assets to copy"
           else
-            echo '<svg width="183" height="40" xmlns="http://www.w3.org/2000/svg"></svg>' > _book/assets/logo-light.jpg
-            echo '<svg width="183" height="40" xmlns="http://www.w3.org/2000/svg"></svg>' > _book/assets/logo-dark.jpg
+            echo '<svg width="183" height="40" xmlns="http://www.w3.org/2000/svg"></svg>' > _book/assets/logo-light.svg
+            echo '<svg width="183" height="40" xmlns="http://www.w3.org/2000/svg"></svg>' > _book/assets/logo-dark.svg
           fi
 
       - name: Build documentation

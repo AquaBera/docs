@@ -14,7 +14,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-      logo: assets/logo-light.jpg  # Updated with actual path
+      logo: assets/logo-light.svg  # Updated with actual path
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -23,7 +23,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-      logo: assets/logo-dark.jpg  # Updated with actual path
+      logo: assets/logo-dark.svg  # Updated with actual path
 
 extra_css:
   - stylesheets/extra.css 

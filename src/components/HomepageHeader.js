@@ -6,7 +6,7 @@ import { useColorMode } from '@docusaurus/theme-common';
 export default function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   const { colorMode } = useColorMode();
-  const logoPath = colorMode === 'dark' ? 'assets/logo-dark.jpg' : 'assets/logo-light.jpg';
+  const logoPath = colorMode === 'dark' ? 'assets/logo-dark.svg' : 'assets/logo-light.svg';
   
   return (
     <header className="hero">
