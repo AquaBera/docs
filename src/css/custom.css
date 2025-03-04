@@ -3,25 +3,25 @@
  */
 
 :root {
-  --ifm-color-primary: rgb(27%, 32%, 36%); /* Dark blue-gray to match logo-dark.jpg */
-  --ifm-color-primary-dark: rgb(24%, 29%, 32%);
-  --ifm-color-primary-darker: rgb(22%, 26%, 30%);
-  --ifm-color-primary-darkest: rgb(20%, 25%, 28%);
-  --ifm-color-primary-light: rgb(30%, 35%, 39%);
-  --ifm-color-primary-lighter: rgb(32%, 38%, 42%);
-  --ifm-color-primary-lightest: rgb(35%, 40%, 44%);
-  --ifm-background-color: rgb(64%, 67%, 70%); /* Light blue-gray to match logo-light.jpg */
+  --ifm-color-primary: rgb(27%, 33%, 38%); /* Dark blue-gray to match logo-dark.jpg */
+  --ifm-color-primary-dark: rgb(24%, 30%, 34%);
+  --ifm-color-primary-darker: rgb(22%, 27%, 31%);
+  --ifm-color-primary-darkest: rgb(20%, 26%, 30%);
+  --ifm-color-primary-light: rgb(30%, 36%, 41%);
+  --ifm-color-primary-lighter: rgb(32%, 39%, 44%);
+  --ifm-color-primary-lightest: rgb(35%, 42%, 47%);
+  --ifm-background-color: rgb(69%, 74%, 78%); /* Light blue-gray to match logo-light.jpg */
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: rgb(64%, 67%, 70%); /* Light color for dark mode buttons/links */
-  --ifm-color-primary-dark: rgb(58%, 60%, 63%);
-  --ifm-color-primary-darker: rgb(51%, 54%, 56%);
-  --ifm-color-primary-darkest: rgb(45%, 47%, 50%);
-  --ifm-color-primary-light: rgb(71%, 74%, 77%);
-  --ifm-color-primary-lighter: rgb(77%, 80%, 83%);
-  --ifm-color-primary-lightest: rgb(83%, 86%, 89%);
-  --ifm-background-color: rgb(27%, 32%, 36%); /* Dark blue-gray background to match logo-dark.jpg */
+  --ifm-color-primary: rgb(69%, 74%, 78%); /* Light color for dark mode buttons/links */
+  --ifm-color-primary-dark: rgb(62%, 67%, 70%);
+  --ifm-color-primary-darker: rgb(55%, 60%, 63%);
+  --ifm-color-primary-darkest: rgb(48%, 53%, 56%);
+  --ifm-color-primary-light: rgb(76%, 81%, 85%);
+  --ifm-color-primary-lighter: rgb(83%, 88%, 92%);
+  --ifm-color-primary-lightest: rgb(90%, 95%, 99%);
+  --ifm-background-color: rgb(27%, 33%, 38%); /* Dark blue-gray background to match logo-dark.jpg */
 }
 
 /* For the hero section specifically */

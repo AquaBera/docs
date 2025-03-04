@@ -1,16 +1,16 @@
 :root {
-  --md-primary-fg-color: rgb(27%, 32%, 36%);
-  --md-primary-fg-color--light: rgb(35%, 40%, 44%);
-  --md-primary-fg-color--dark: rgb(20%, 25%, 28%);
+  --md-primary-fg-color: rgb(27%, 33%, 38%);
+  --md-primary-fg-color--light: rgb(35%, 41%, 46%);
+  --md-primary-fg-color--dark: rgb(20%, 26%, 31%);
 }
 
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: rgb(27%, 32%, 36%);
-  --md-default-bg-color: rgb(27%, 32%, 36%);
+  --md-primary-fg-color: rgb(27%, 33%, 38%);
+  --md-default-bg-color: rgb(27%, 33%, 38%);
 }
 
 [data-md-color-scheme="default"] {
-  --md-default-bg-color: rgb(64%, 67%, 70%);
+  --md-default-bg-color: rgb(69%, 74%, 78%);
 }
 
 /* Enhance logo display */
