@@ -12,6 +12,8 @@ on:
       - '.github/workflows/deploy.yml'
       - 'package.json'
       - 'package-lock.json'
+      - '**/*.css'
+      - 'assets/**'
   workflow_dispatch:
 
 jobs:
