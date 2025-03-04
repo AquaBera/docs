@@ -1,21 +1,21 @@
 /* Theme variables */
 :root {
-    --primary-color: #FFD94E;
-    --primary-color-alpha: rgba(255,217,78,.1);
-    --border-color: rgba(0,0,0,.07);
+    --primary-color: #0066cc;
+    --primary-color-alpha: rgba(0, 102, 204, 0.1);
+    --border-color: #e1e4e8;
     --text-color: #333333;
-    --bg-color: #ffffff;
-    --code-bg: rgba(255,217,78,.1);
+    --bg-color: rgb(69%, 74%, 78%);
+    --code-bg: #f6f8fa;
 }
 
 /* Dark theme variables */
 [data-theme="dark"] {
-    --primary-color: #FFD94E;
-    --primary-color-alpha: rgba(255,217,78,.1);
-    --border-color: rgba(255,255,255,.07);
+    --primary-color: #58a6ff;
+    --primary-color-alpha: rgba(88, 166, 255, 0.1);
+    --border-color: #30363d;
     --text-color: rgba(255,255,255,.9);
-    --bg-color: #1a1a1a;
-    --code-bg: #2a2a2a;
+    --bg-color: rgb(27%, 33%, 38%);
+    --code-bg: #161b22;
 }
 
 /* Theme switcher styling */
@@ -178,4 +178,11 @@
 .navigation-prev:hover,
 .navigation-next:hover {
     background: var(--primary-color-alpha);
+}
+
+/* Base styles */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease;
 }
