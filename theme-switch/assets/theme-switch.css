@@ -1,0 +1,124 @@
+/* Theme variables */
+:root {
+    --primary-color: #0066cc;
+    --primary-color-alpha: rgba(0, 102, 204, 0.1);
+    --border-color: #e1e4e8;
+    --text-color: #333333;
+    --bg-color: rgb(68.9%, 73.6%, 77.9%);
+    --code-bg: #f6f8fa;
+}
+
+/* Dark theme variables */
+[data-theme="dark"] {
+    --primary-color: #58a6ff;
+    --primary-color-alpha: rgba(88, 166, 255, 0.1);
+    --border-color: #30363d;
+    --text-color: rgba(255,255,255,.9);
+    --bg-color: rgb(26.5%, 33.2%, 37.7%);
+    --code-bg: #161b22;
+}
+
+/* Theme switcher styling */
+.theme-switch {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    background-color: var(--bg-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 8px;
+    vertical-align: middle;
+}
+
+.theme-switch::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    top: 0;
+    left: 0;
+    transition: transform 0.3s;
+}
+
+.theme-switch.dark::after {
+    transform: translateX(20px);
+}
+
+.theme-switch-wrapper {
+    position: fixed;
+    right: 20px;
+    top: 8px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: var(--text-color);
+    z-index: 1;
+}
+
+.theme-switch-wrapper span {
+    margin: 0 4px;
+    opacity: 0.7;
+}
+
+/* Dark mode adjustments */
+[data-theme="dark"] {
+    background-color: var(--bg-color);
+}
+
+[data-theme="dark"] .book-summary {
+    background: var(--bg-color);
+    border-right: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .book-body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .book-header {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .markdown-section {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .markdown-section code {
+    color: var(--primary-color);
+    background-color: var(--primary-color-alpha);
+}
+
+[data-theme="dark"] .markdown-section pre {
+    background-color: var(--code-bg);
+}
+
+[data-theme="dark"] .markdown-section pre > code {
+    color: var(--text-color);
+    background: none;
+}
+
+/* Transitions */
+.book-summary,
+.book-body,
+.book-header,
+.markdown-section,
+.theme-switch::after {
+    transition: all 0.3s ease;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease;
+}
+
+html {
+    background-color: var(--bg-color);
+    transition: background-color 0.3s ease;
+} 

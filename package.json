@@ -1,0 +1,27 @@
+{
+  "name": "aquabera-docs",
+  "version": "1.0.0",
+  "description": "AquaBera Documentation",
+  "main": "index.js",
+  "scripts": {
+    "build": "honkit build",
+    "serve": "honkit serve"
+  },
+  "dependencies": {
+    "honkit": "^4.0.7",
+    "@honkit/honkit-plugin-theme-default": "^4.0.8",
+    "@honkit/honkit-plugin-highlight": "^4.0.8",
+    "honkit-plugin-theme-switch": "file:theme-switch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AquaBera/docs.git"
+  },
+  "keywords": [
+    "documentation",
+    "honkit",
+    "aquabera"
+  ],
+  "author": "AquaBera",
+  "license": "MIT"
+}

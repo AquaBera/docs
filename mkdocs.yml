@@ -1,0 +1,29 @@
+site_name: AquaBera Documentation
+theme:
+  name: material
+  logo: assets/logo-light.jpg  # Updated with actual path
+  favicon: assets/logo-light.jpg  # Updated with favicon
+  icon:
+    logo: material/library
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      logo: assets/logo-light.svg  # Updated with actual path
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      logo: assets/logo-dark.svg  # Updated with actual path
+
+extra_css:
+  - stylesheets/extra.css 
