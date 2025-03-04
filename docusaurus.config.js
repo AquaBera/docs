@@ -9,8 +9,8 @@ const config = {
     navbar: {
       logo: {
         alt: 'AquaBera Logo',
-        src: 'assets/logo-dark.jpg',
-        srcDark: 'assets/logo-light.jpg',
+        src: 'assets/logo-light.jpg',
+        srcDark: 'assets/logo-dark.jpg',
       },
     },
   },
