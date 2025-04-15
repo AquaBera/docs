@@ -1,0 +1,42 @@
+:root {
+  --md-primary-fg-color: rgb(27%, 33%, 38%);
+  --md-primary-fg-color--light: rgb(35%, 41%, 46%);
+  --md-primary-fg-color--dark: rgb(20%, 26%, 31%);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: rgb(27%, 33%, 38%);
+  --md-default-bg-color: rgb(27%, 33%, 38%);
+}
+
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: rgb(69%, 74%, 78%);
+}
+
+/* Enhance logo display */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 2.4rem;
+}
+
+/* Hero section styling */
+.md-typeset h1 {
+  color: var(--md-primary-fg-color);
+  font-weight: 700;
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1 {
+  color: white;
+}
+
+/* Custom hero section if needed */
+.tx-hero {
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.tx-hero img {
+  max-width: 300px;
+  margin-bottom: 1rem;
+} 
