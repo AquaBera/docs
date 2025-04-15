@@ -53,8 +53,7 @@ The ALM charges a small protocol fee on earned trading fees or gauge incentives 
 
 ### **Q8: How do I earn additional rewards from gauges?**
 
-If the vault is gauge-enabled within **Berachain's PoL**, you can earn $BGT rewards. You don't have to do anything extra; simply deposit into the gauge-enabled vault. The ALM manages the rest.
-
+If the vault is gauge-enabled within **Berachain's PoL**, you can earn $BGT rewards. All you need to do is take the receipt (LP) token from your AquaBera deposit, and stake it into the vault. POL vaults can be found here:https://hub.berachain.com/vaults/
 ### **Q9: Can the ALM protect me from impermanent loss?**
 
 It **reduces** the likelihood of severe impermanent loss by aligning liquidity with your deposit token preference and avoiding unnecessary swaps. However, no solution can **fully** eliminate impermanent loss in DeFi if price ratios move significantly.
